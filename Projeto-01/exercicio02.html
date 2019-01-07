@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Fundamental</title>
+</head>
+
+<body>
+    <nav>
+        <a href="#">Brasil</a>
+        <a href="#">Argentina</a>
+        <a href="#">Uruguai</a>
+        <a href="#">Chile</a>
+    </nav>
+
+    <!-- scripts -->
+    <script src="jquery-3.2.1.min.js"></script>
+    <script>
+        $(function () {
+            // Vai contar o numero de elementos que sejam a filhos do nav
+            alert("Essa página contém " + $("nav a").length + " Links");
+            // Vai colorir todos os elementos filhos do nav
+            $("nav a").css("color", "red");
+            // Estilizar 2 vezes
+            $("nav a").css("color", "orange").css("display", "block");
+            // Vai alterar o primeiro elemento
+            $("nav a:first").css("color","black");
+            // Vai alterar o ultimo elemento
+            $("nav a:last").css("color","green");
+            // Contendo uma certa Informação
+            $("nav a:contains('Argentina')").css("color","pink");
+        })
+    </script>
+
+</body>
+
+</html>
