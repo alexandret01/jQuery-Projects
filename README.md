@@ -41,3 +41,19 @@
     2º Animações e Efeitos
 
     3º Estudo pessoal!
+
+## Projeto-06
+
+    1º Projeto Foi usado para conhecimento do framework
+
+    2º AJAX: Leitura de arquivo em XML
+
+    3º Estudo pessoal!
+
+## Projeto-07
+
+    1º Projeto Foi usado para conhecimento do framework
+
+    2º AJAX: Leitura de arquivo em JSON
+
+    3º Estudo pessoal!

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Solicitacao</title>
+    </head>
+    <script>
+        var ajax = new XMLHttpRequest();
+        ajax.open('GET','dados.txt',true);
+        ajax.send();
+        ajax.onreadystatechange = function () {
+        if(ajax.status == 200){
+            if(ajax.readyState == 3){
+                console.log("Carregando");
+            }
+            if(ajax.readyState == 3){
+            console.log("Carregou");
+            }
+          }
+        }
+    </script>
+    <body>
+        <h1></h1>
+    </body>
+</html>
